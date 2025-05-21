@@ -7,8 +7,9 @@ Repositório de estudos baseado no livro **"Pense em Python"** (2ª ed.) de Alle
 Um projeto para dominar Python através da prática de conceitos fundamentais.
 
 <p> 
-<img src="./Assets/img/livro.png" alt="Capa do livro Pense em Python" width="200"/>
+<img src="./Assets/img/livro.png" alt="Capa do livro Pense em Python"/>
 </p>
+
 
 > "Aprender Python não é apenas sobre sintaxe, é sobre aprender a pensar como um cientista da computação." - Allen B. Downey
 
