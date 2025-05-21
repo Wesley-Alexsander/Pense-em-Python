@@ -5,46 +5,40 @@
 
 Repositório de estudos baseado no livro **"Pense em Python"** (2ª ed.) de Allen B. Downey.  
 Um projeto para dominar Python através da prática de conceitos fundamentais.
+
 <p> 
-<img src="./Assets/img/livro.png"/>
+<img src="./Assets/img/livro.png" alt="Capa do livro Pense em Python" width="200"/>
 </p>
 
 > "Aprender Python não é apenas sobre sintaxe, é sobre aprender a pensar como um cientista da computação." - Allen B. Downey
 
+## 📚 Biblioteca Pessoal Complementar
+Acompanhe minhas anotações detalhadas e materiais extras no Notion:  
+[![Notion](https://img.shields.io/badge/Notion-%23000000.svg?logo=notion&logoColor=white)](https://right-cheshire-510.notion.site/Python-46f1955a7e9e4b09ad101606425a904b?pvs=4)
+
 
 ## 📖 Abordagem de Estudo
-Como Engenheiro de dados com conhecimento prévio em Python, estou revisitando todos os capítulos do livro "Pense em Python" (2ª ed. - Allen B. Downey) com dois objetivos:
+Como Engenheiro de Dados com conhecimento prévio em Python, estou revisitando todos os capítulos com dois objetivos:
 
-1. Descobrir nuances conceituais que podem ter passado despercebidas na prática profissional
+1. **Descobrir nuances conceituais** que podem ter passado despercebidas na prática profissional
+2. **Documentar sistematicamente** toda a jornada de releitura:
+   - ✅ Organiza exemplos por capítulo
+   - 🔍 Registra insights avançados
+   - ⚖️ Contrasta conhecimento prévio com o livro
 
-2. Documentar sistematicamente toda a jornada de releitura, criando um repositório completo que:
-
-3. Organiza exemplos por capítulo
-
-4. Registra insights avançados
-
-5. Contrasta conhecimento prévio com as explicações do livro
-
-
-#### Por que começar do Capítulo 1?
-
-✔ Validar fundamentos com olhar experiente
-
-✔ Identificar gaps em conceitos "básicos" que sustentam tópicos avançados
-
-✔ Coletar material didático para mentoria
-
+### Por que começar do Capítulo 1?
+✔ Validar fundamentos com olhar experiente  
+✔ Identificar gaps em conceitos "básicos"  
+✔ Coletar material didático para mentoria  
 
 ## 🚀 Objetivo
-
 Transformar conhecimento teórico em prática através de:
 - Exercícios resolvidos do livro
 - Anotações comentadas
-- Exemplos adicionais criados por mim
+- Exemplos adicionais
 - Desafios complementares
 
-
-## 📚 Estrutura
+## 📂 Estrutura
 ├── capitulos/ # Códigos organizados por capítulos
 
 ├── exercicios/ # Soluções para os exercícios propostos
