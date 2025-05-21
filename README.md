@@ -12,6 +12,19 @@ Um projeto para dominar Python através da prática de conceitos fundamentais.
 
 > "Aprender Python não é apenas sobre sintaxe, é sobre aprender a pensar como um cientista da computação." - Allen B. Downey
 
+## 📖 Abordagem de Estudo
+Como Engenheiro de dados com conhecimento intermediário/avançado em Python, estou revisitando todos os capítulos do livro "Pense em Python" (2ª ed. - Allen B. Downey) com dois objetivos:
+
+1. Descobrir nuances conceituais que podem ter passado despercebidas na prática profissional
+
+2. Documentar sistematicamente toda a jornada de releitura, criando um repositório completo que:
+
+3. Organiza exemplos por capítulo
+
+4. Registra insights avançados
+
+5. Contrasta conhecimento prévio com as explicações do livro
+
 ## 🚀 Objetivo
 
 Transformar conhecimento teórico em prática através de:
