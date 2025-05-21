@@ -8,9 +8,9 @@ Um projeto para dominar Python através da prática de conceitos fundamentais.
 <p> 
 <img src="./Assets/img/livro.png"/>
 </p>
-<br/>
 
 > "Aprender Python não é apenas sobre sintaxe, é sobre aprender a pensar como um cientista da computação." - Allen B. Downey
+
 
 ## 📖 Abordagem de Estudo
 Como Engenheiro de dados com conhecimento prévio em Python, estou revisitando todos os capítulos do livro "Pense em Python" (2ª ed. - Allen B. Downey) com dois objetivos:
@@ -25,6 +25,16 @@ Como Engenheiro de dados com conhecimento prévio em Python, estou revisitando t
 
 5. Contrasta conhecimento prévio com as explicações do livro
 
+
+#### Por que começar do Capítulo 1?
+
+✔ Validar fundamentos com olhar experiente
+
+✔ Identificar gaps em conceitos "básicos" que sustentam tópicos avançados
+
+✔ Coletar material didático para mentoria
+
+
 ## 🚀 Objetivo
 
 Transformar conhecimento teórico em prática através de:
@@ -32,6 +42,7 @@ Transformar conhecimento teórico em prática através de:
 - Anotações comentadas
 - Exemplos adicionais criados por mim
 - Desafios complementares
+
 
 ## 📚 Estrutura
 ├── capitulos/ # Códigos organizados por capítulos
@@ -43,7 +54,6 @@ Transformar conhecimento teórico em prática através de:
 ├── anotacoes/ # Resumos e insights em Markdown
 
 └── recursos/ # Materiais complementares
-
 
 
 ## 💻 Como Usar
@@ -61,6 +71,7 @@ cd Pense-em-Python/capitulos/03-funcoes
 python3 exemplo_funcoes.py
 ```
 
+
 ## 🤝 Contribuição
 Encontrou um erro ou tem uma solução melhor? Sinta-se à vontade para:
 
@@ -69,6 +80,7 @@ Encontrou um erro ou tem uma solução melhor? Sinta-se à vontade para:
 - Enviar um Pull Request
 
 - Compartilhar ideias de melhorias
+
 
 ## 📌 Roadmap
 Capítulo 1 - A Jornada do Programa
