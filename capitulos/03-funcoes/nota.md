@@ -1,5 +1,7 @@
 # 📘 Documentação Pessoal: Funções em Python  
 
+<br>
+
 ## 📌 O que é uma Função?  
 Uma função é um trecho de código nomeado que executa uma tarefa específica.  
 
@@ -9,6 +11,7 @@ Você pode pensar nela como um **"botão de atalho"** para uma tarefa comum. Qua
 ✔️ Retorna um resultado (se necessário)  
 
 ---  
+<br>
 
 ## 🛠️ Exemplo do Mundo Real  
 **Contexto:** Você trabalha em uma fábrica de camisetas.  
@@ -39,6 +42,7 @@ def processar_pedido(nome, quantidade):
     
     return formulario, etiqueta
 ```
+<br>
 
 ## 🧱 Estrutura de uma Função
 ### 🧩 Componentes Básicos:
@@ -54,6 +58,8 @@ def nome_da_funcao(parametros):
     return resultado
 ```
 > Funções sem return retornam None automaticamente.
+
+<br>
 
 ## 📂 Tipos de Funções
 1. Funções Integradas (Built-in)
@@ -91,6 +97,7 @@ angulo = 45
 radianos = math.radians(angulo)  # Converte para radianos
 print(math.sin(radianos))        # Calcula o seno do ângulo
 ```
+<br>
 
 ## 🔁 Composição de Funções
 Você pode usar uma função dentro de outra, como se fosse um "encadeamento".
@@ -99,6 +106,7 @@ Você pode usar uma função dentro de outra, como se fosse um "encadeamento".
 x = 2
 resultado = math.exp(math.log(x + 1))  # Retorna 3.0
 ```
+<br>
 
 ## ✍️ Criando Suas Próprias Funções
 Exemplo simples:
@@ -113,23 +121,26 @@ print(cumprimentar("João"))
 mensagem = cumprimentar("Maria")
 print(mensagem)
 ```
+<br>
 
 ## 🔄 Fluxo de Execução de uma Função
-O Python encontra uma chamada de função.
+1. O Python encontra uma chamada de função.
 
-Ele procura pela definição da função.
+2. Ele procura pela definição da função.
 
-Os argumentos são passados para os parâmetros.
+3. Os argumentos são passados para os parâmetros.
 
-O bloco da função é executado linha por linha.
+4. O bloco da função é executado linha por linha.
 
-Se houver return, o valor é devolvido.
+5. Se houver return, o valor é devolvido.
 
-A execução do programa continua após a chamada.
+6. A execução do programa continua após a chamada.
 
 #### 🔎 Você pode acompanhar esse fluxo usando o debugger do VS Code, como ilustrado no GIF:
-![Fluxo da execução da função](Assets/gifs/fluxo_execucao_funcao.gif)
+<img src="../../Assets/gifs/fluxo_execucao_funcao.gif" alt="Fluxo de Execução" width="1000"/>
 
+> ### Note que a linha amarela é sempre o próximo step a ser executado, é para onde o cursor pula após executar uma instrução.
+<br>
 
 ## ⚙️ Parâmetros e Escopo
 ```python
@@ -144,19 +155,21 @@ Detalhes:
 - c é opcional, com valor padrão de 0.
 
 - resultado é uma variável local, ou seja, só existe dentro da função.
+<br>
 
 ## 🔎 Características Importantes
-Escopo: variáveis criadas dentro da função não existem fora dela.
+- Escopo: variáveis criadas dentro da função não existem fora dela.
 
-Parâmetros com valor padrão são opcionais na chamada.
+- Parâmetros com valor padrão são opcionais na chamada.
 
-Se não houver return, a função retorna None.
+- Se não houver return, a função retorna None.
 
-Você pode documentar sua função com uma docstring (texto entre """ logo abaixo do def).
+- Você pode documentar sua função com uma docstring (texto entre """ logo abaixo do def).
+<br>
 
 ## 📌 Boas Práticas
-✅ Use nomes descritivos (ex: calcular_media, converter_tempo)
-✅ Documente com docstrings explicando o que a função faz
-✅ Quebre problemas grandes em funções pequenas e reutilizáveis
-✅ Evite repetir código: use funções para centralizar lógica
+✅ Use nomes descritivos (ex: calcular_media, converter_tempo)<br>
+✅ Documente com docstrings explicando o que a função faz<br>
+✅ Quebre problemas grandes em funções pequenas e reutilizáveis<br>
+✅ Evite repetir código: use funções para centralizar lógica<br>
 ✅ Teste funções isoladamente para facilitar a depuração
