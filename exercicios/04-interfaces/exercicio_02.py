@@ -12,10 +12,9 @@ bob = turtle.Turtle()
 
 
 def square(T, length):
-    T.pensize(length)
     for _ in range(4):
-        T.forward(100)
+        T.forward(length)
         T.left(90)
     turtle.mainloop()
 
-square(bob, length=4)
+square(bob, length=100)

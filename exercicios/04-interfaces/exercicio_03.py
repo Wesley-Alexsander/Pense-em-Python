@@ -12,20 +12,34 @@ bob = turtle.Turtle()
 # usando: loop + .forward() + .left()
 # ou: .setpos(X, Y)
 
-def polygon(*, T, n, length=2):
-    T.pensize(length)
+def polygon(*, T, n, length=100):
+    T.pensize(2)
     for _ in range(n):
-        T.forward(100)
+        T.forward(length)
         T.left(60)
     turtle.mainloop()
 
 
-polygon(T=bob, n=6)
+# polygon(T=bob, n=6)
+
+# essa função e a de cima são equivalentes
+def polygon2(*, T, n, length=100):
+    angle = 360 / n
+    T.pensize(2)
+    for _ in range(n):
+        T.forward(length)
+        T.left(angle)
+    turtle.mainloop()
+
+
+# polygon2(T=bob, n=6)
+
 
 # Lembre-se que o turtle usa o plano cartesiano
 # para orientação do cursor, se necessário
 # use uma imagem de exemplo, para ver para onde os eixos vão
 def polygon2(T):
+    T.pensize(2)
     T.setpos(100, 0)  # andar 100 px no eixo x
     T.setpos(160, 100)  # andar +60 px no eixo x enquanto sobe no eixo y 100
     T.setpos(100, 200)  # volta -60 px no eixo x enquanto sobe +100 no eixo y
@@ -36,4 +50,4 @@ def polygon2(T):
     turtle.mainloop()
 
 
-# polygon2(bob)
+polygon2(bob)
